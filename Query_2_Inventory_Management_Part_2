@@ -1,0 +1,23 @@
+/*
+
+4. Percentage stock remaining by ingredient
+
+*/
+
+SELECT 
+s2.ing_name,
+s2.ordered_weight,
+ing.ing_weight * inv.quantity AS total_inv_weight,
+(ing.ing_weight * inv.quantity) - s2.ordered_weight AS remaining_weight,
+((ing.ing_weight * inv.quantity) - s2.ordered_weight) * 100 / (ing.ing_weight * inv.quantity) AS percentage_remaining_weight
+FROM (SELECT
+ingred_id,
+ing_name,
+SUM(ordered_weight) AS ordered_weight
+FROM stock_1
+GROUP BY
+ing_name,
+ingred_id) s2
+
+LEFT JOIN inventory inv ON inv.ingred_id = s2.ingred_id
+LEFT JOIN ingredient ing ON ing.ing_id = s2.ingred_id

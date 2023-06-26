@@ -1,0 +1,19 @@
+/*
+
+1. Hours in shift
+2. Staff cost
+
+*/
+
+SELECT
+R.rota_date,
+s.first_name,
+s.last_name,
+s.hourly_rate,
+sh.start_time,
+sh.end_time,
+EXTRACT(EPOCH FROM(sh.end_time - sh.start_time)) / 3600 AS hours_in_shif,
+EXTRACT(EPOCH FROM(sh.end_time - sh.start_time)) / 3600 * s.hourly_rate AS staff_cost
+FROM rota R
+LEFT JOIN staff s ON s.staff_id = R.staff_id
+LEFT JOIN shift sh ON sh.shift_id = R.shift_id

@@ -1,0 +1,28 @@
+/*
+1.  Total orders
+2.  Total sales
+3.  Total items
+4.  Average order value
+5.  Sales by category
+6.  Top selling items
+7.  Top selling items
+8.  Sales by hour
+9.  Orders by address
+10. Orders by delivery/pick up
+*/
+
+SELECT
+o.order_id,
+i.item_price,
+o.quantity,
+i.item_category,
+i.item_name,
+o.created_at,
+a.delivery_address1,
+a.delivery_address2,
+a.delivery_city,
+a.delivery_zipcode,
+o.delivery
+FROM orders o
+LEFT JOIN item i ON o.item_id = i.item_id  
+LEFT JOIN address a ON o.addr_id = a.addr_id 

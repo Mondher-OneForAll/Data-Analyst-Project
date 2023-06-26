@@ -1,0 +1,37 @@
+it001,PIZZ-MARG-R,Margherita,Pizza,Regular,12
+it002,PIZZ-MARG-L,Margherita,Pizza,Large,14
+it003,PIZZ-DIAV-R,Diavola,Pizza,Regular,16
+it004,PIZZ-DIAV-L,Diavola,Pizza,Large,19
+it005,PIZZ-PARM-R,Parmigiana,Pizza,Regular,15
+it006,PIZZ-PARM-L,Parmigiana,Pizza,Large,18
+it007,PIZZ-QUART-R,Quattro Formaggi,Pizza,Regular,16
+it008,PIZZ-QUART-L,Quattro Formaggi,Pizza,Large,19
+it009,PIZZ-NAPO-R,Napolitana,Pizza,Regular,16
+it010,PIZZ-NAPO-L,Napolitana,Pizza,Large,18
+it011,PIZZ-PEPP-R,Pepperoni,Pizza,Regular,15
+it012,PIZZ-PEPP-L,Pepperoni,Pizza,Large,17
+it013,PIZZ-SEAF-R,Seafood,Pizza,Regular,17
+it014,PIZZ-SEAF-L,Seafood,Pizza,Large,20
+it015,PIZZ-HAWA-R,Hawaiian,Pizza,Regular,15
+it016,PIZZ-HAWA-L,Hawaiian,Pizza,Large,17
+it017,SIDE-GARL-R,Garlic Bread,Side,Regular,6
+it018,SIDE-CHIC-R,Chicken Wings,Side,Regular,7
+it019,SIDE-BREA-R,Breadsticks,Side,Regular,5
+it020,SIDE-CAES-R,Ceasar Salad,Side,Regular,7
+it021,DESS-ICE-CHOC,Chocolate Ice Cream,Dessert,Regular,6
+it022,DESS-ICE-VANI,Vanilla Ice Cream,Dessert,Regular,6
+it023,DESS-ICE-STRA,Strawberry Ice cream,Dessert,Regular,6
+it024,DESS-ICE-PIST,Pistachio Ice Cream,Dessert,Regular,6
+it025,DESS-CHOC-BROW,Chocolate Brownie,Dessert,Regular,6
+it026,DESS-BANO-PIE,Banoffee Pie,Dessert,Regular,5
+it027,DESS-FRUI-SALA,Vanilla Ice Cream,Dessert,Regular,7
+it028,BEVA-CC-REG33,Coca Cola,Beverage,33cl,3
+it029,BEVA-CC-REG1500,Coca Cola,Beverage,1.5l,6
+it030,BEVA-CC-DIE33,Diet Coke,Beverage,33cl,3
+it031,BEVA-CC-DIE1500,Diet Coke,Beverage,1.5l,6
+it032,BEVA-7U-REG33,7 UP,Beverage,33cl,3
+it033,BEVA-7U-REG1500,7 UP,Beverage,1.5l,6
+it034,BEVA-CC-DIE33,Diet 7 UP,Beverage,33cl,3
+it035,BEVA-CC-DIE1500,Diet 7 UP,Beverage,1.5l,6
+it036,BEVA-SC-REG33,Schweppes,Beverage,33cl,3
+it037,BEVA-SC-REG1500,Schweppes,Beverage,1.5l,6
